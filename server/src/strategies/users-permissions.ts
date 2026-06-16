@@ -8,7 +8,7 @@ const { ForbiddenError, UnauthorizedError } = errors;
 const OAuth2Server = require('oauth2-server');
 const { Request, Response } = OAuth2Server;
 
-const PLUGIN_NAME = 'simple-strapi-auth-v5';
+const PLUGIN_NAME = 'simple-auth';
 
 export const createStrategy = (strapi: Core.Strapi) => {
   const getService = (name: string) => strapi.plugin('users-permissions').service(name);

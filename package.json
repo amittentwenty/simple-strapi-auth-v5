@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "type": "commonjs",
   "exports": {
@@ -62,7 +62,7 @@
   },
   "strapi": {
     "kind": "plugin",
-    "name": "simple-strapi-auth-v5",
+    "name": "simple-auth",
     "displayName": "simple strapi auth",
     "description": "strapi auth v5"
   },

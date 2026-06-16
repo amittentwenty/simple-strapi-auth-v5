@@ -1,6 +1,6 @@
 import type { Core } from '@strapi/strapi';
 
-const PLUGIN_NAME = 'simple-strapi-auth-v5';
+const PLUGIN_NAME = 'simple-auth';
 
 const auth = ({ strapi }: { strapi: Core.Strapi }) => ({
   async count(ctx: any) {

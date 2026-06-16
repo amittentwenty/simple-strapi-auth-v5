@@ -1,5 +1,5 @@
 export default () => ({
-  type: 'content-api',
+  type: 'admin',
   routes: [
     {
       method: 'POST',

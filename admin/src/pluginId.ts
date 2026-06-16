@@ -1,1 +1,1 @@
-export const PLUGIN_ID = "simple-strapi-auth-v5";
+export const PLUGIN_ID = "simple-auth";

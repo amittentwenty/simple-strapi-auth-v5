@@ -1,7 +1,7 @@
 import crypto from 'crypto';
 import type { Core } from '@strapi/strapi';
 
-const PLUGIN_NAME = 'simple-strapi-auth-v5';
+const PLUGIN_NAME = 'simple-auth';
 
 const authorizationCodeDb: Record<string, any> = {
   authorizationCode: '',
